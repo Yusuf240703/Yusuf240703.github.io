@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>AVDASI2</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px; /* Adjust spacing between image containers */
+        }
+        .images-row {
+            display: flex;
+            justify-content: center;
+        }
+        .image-container .image {
+            margin: 0 5px; /* Adjust spacing between images */
+        }
+        .image-container p {
+            text-align: center; /* Center text under each image */
+            margin-top: 10px; /* Adjust the space between images and text */
+        }
+        .home-button-container {
+            position: absolute;
+            left: 20px; /* Adjust the distance from the left edge */
+            top: 20px; /* Adjust the distance from the top edge */
+        }
+        .centered-text {
+            text-align: center; /* Center-align the text */
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Main Content -->
+        <div id="main">
+            <article class="post">
+                <!-- Home button -->
+                <div class="home-button-container">
+                    <a href="index.html" class="button">Home</a>
+                </div>
+                <!-- Main content -->
+                <header class="major">
+                    <h2>Design & Manufacture of a UAV</h2>
+                    <p>I led a team of 30 engineers to design and test the wing of a UAV. This consisted of an iterative design process to choose an aerofoil shape, predicting the wing performance, manufacturing, and testing of the wing.</p>
+                </header>
+                <div class="image-container">
+                    <a class="image main"><img src="images/wing2.png" alt="" /></a>
+                    <p>Completed UAV, with wings integrated into the fuselage and tailplane assembly.</p>
+                </div>
+                <div class="image-container">
+                    <div class="images-row">
+                        <a class="image"><img src="images/av1.png" alt="" /></a>
+                        <a class="image"><img src="images/av2.png" alt="" /></a>
+                    </div>
+                    <p>The aerofoil was chosen by aiming to find a balance between top speed, endurance and maximum lift generation and structural requirements. The chosen aerofoil was NACA 4715.
+                        Rib prototypes were designed in Fusion360 and constructed from laser-cut wood, reinforced with CNC cut styrofoam.
+                    </p>
+                </div>
+                <div class="image-container">
+                    <div class="images-row">
+                        <a class="image"><img src="images/av3.png" alt="" /></a>
+                        <a class="image"><img src="images/av5.jpeg" alt="" /></a>
+                    </div>
+                    <p>Pressure tappings were installed at multiple points on the rib leading edges, to allow for data collection
+                        during wind tunnel testing. Flap assemblies were also created for the outer wing sections (shown in the photo on the right).
+                    </p>
+                </div>
+                <div class="image-container">
+                    <div class="images-row">
+                        <a class="image"><img src="images/av4.png" alt="" /></a>
+                        <a class="image"><img src="images/av6.jpeg" alt="" /></a>
+                    </div>
+                    <p>The ribs and foam supports were able to be mass-produced, due to the using the automation of the laser cutting
+                        and CNC foam cutting machines. The components were then assembled on the front and rear compsite spars.</p>
+                </div>
+                <div class="image-container">
+                    <div class="images-row">
+                        <a class="image"><img src="images/av11.jpeg" alt="" /></a>
+                        <a class="image"><img src="images/av7.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <div class="images-row">
+                        <a class="image"><img src="images/av9.jpeg" alt="" /></a>
+                        <a class="image"><img src="images/av12.png" alt="" /></a>
+                    </div>
+                    <p>Using multiple aerodynamic performance prediction methods, including simulating the aerofoil in XFLR5 and calculating lift
+                        drag coefficients using ESDU sheets, drag polars for different flap settings were calculated (left). The experiental data from
+                        the wind tunnel testing is plotted on the right. </p>
+                </div>
+                <!-- Add more image-container divs for additional images if needed -->
+                <p class="centered-text">The shape of the drag polars was similar for the predicted and experiemental data. This continues until the aerofoil
+                    stalls, at which point the graph breaks down. The predicted values are much higher for the lift coefficent, and lower for the drag coefficient.
+                    This may be due to multiple factors, such as the wing surface not being perfectly smooth, creating additional drag and lowering the potential
+                    lift being produced.
+                </p>
+            </article>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section class="split contact">
+                <section>
+                    <h3>Email</h3>
+                    <p><a href="mailto:yusxf.ali@gmail.com">yusxf.ali@gmail.com</a></p>
+                </section>
+            </section>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
